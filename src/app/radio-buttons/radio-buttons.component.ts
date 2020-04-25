@@ -12,7 +12,7 @@ export class RadioButtonsComponent implements OnInit {
   ngOnInit() {
   }
 
-  favoriteSeason: string;
+  favoriteSeason: string = "Summer";
   seasons: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
 
 }
