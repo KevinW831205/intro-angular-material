@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intro-angular-material';
+
+  onChange($event){
+    console.log($event)
+  }
+
 }
